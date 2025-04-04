@@ -8,4 +8,6 @@ namespace VulnerableCoreApp.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
+    
 }
