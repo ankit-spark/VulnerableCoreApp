@@ -14,7 +14,7 @@ jobs:
         --volume "/bl_reports:/bl_reports"
     
       env:
-        SONAR_PROJECTKEY: -IZyvOK2Kg.09ax0
+        SONAR_PROJECTKEY: -RWsI8gx_UNnWsaD
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     
@@ -23,5 +23,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Run Blacklock Code Scanner
         run: /usr/local/bin/run.sh
-
         
