@@ -23,4 +23,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Run Blacklock Code Scanner
         run: /usr/local/bin/run.sh
+
         
